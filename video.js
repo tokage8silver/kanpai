@@ -1,7 +1,7 @@
 (() => {
     'use strict';
 
-    const TWILIO_DOMAIN = location.host;
+    const TWILIO_DOMAIN = 'ruby-birman-5432.twil.io';
     const ROOM_NAME = 'VideoRoom';
     const Video = Twilio.Video;
     let videoRoom, localStream;
